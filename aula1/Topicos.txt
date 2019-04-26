@@ -1,0 +1,90 @@
+1- anaconda navigator
+2- envs
+
+3- pq a gente nao vai entrar no kaggle agora
+    -comecin de jupyter notebooks
+    https://www.kaggle.com/c/santander-customer-transaction-prediction/overview
+    
+4- O que é uma EDA
+
+    I’ve broken this down into 3 parts:-
+    Cleansing: Checking for problems with the collected data, 
+                    such as missing data or measurement error, data type of columns, etc.)
+    Defining questions: Identifying relationships between variables that are particularly interesting or unexpected.
+    Using effective visualizations to communicate my results(to be covered in the 2nd part)
+    
+    data wrangling
+    
+    Começar a fazer alguma coisa com o dataset
+    
+5- pq jupyter notebooks são tão usados em datascience
+
+
+
+Com o que sobrar de tempo:
+
+6- Conteudos
+    https://pandas.pydata.org/pandas-docs/stable/reference/index.html
+
+    Como importar dados
+        pd.read_csv
+        pd.read_json
+        pd.read_pickle
+
+    O que é um dataframe
+        construtores
+        DataFrame.arange.reshape
+        DataFrame (dict)
+    
+        .columns
+        .head
+        .shape
+        .index
+ 
+    O que é uma series
+        Construtores
+        Series (d)
+        Argumentos
+        
+        dtype
+        scalar sum
+    
+    Primeiros comandos de exploração
+        Como criar uma series nova num df
+        Selecao
+        masks
+        unique()
+        nunique()
+        sum()
+        
+        
+Datasets:
+https://www.kaggle.com/worldbank/world-development-indicators#Series.csv >> provavelmente o melhor
+https://www.kaggle.com/unsdsn/world-happiness/kernels >> muito seco
+https://www.kaggle.com/mlg-ulb/creditcardfraud >> muito pouco intuitivo
+https://www.kaggle.com/noriuk/us-education-datasets-unification-project >> nao vi ainda
+https://www.kaggle.com/prajitdatta/movielens-100k-dataset
+https://www.kaggle.com/grouplens/movielens-20m-dataset
+https://www.kaggle.com/c/titanic
+
+E claro o do santander
+
+Provavelmente a gente vai usar mais de um pra fazer coisas diferentes
+treino de merge eh legal com o de world happiness
+        
+        
+Tarefa:
+    Puxar os dados, brincar um pouco (definir objetivos)
+    Ver alguns videos https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y
+    Fazer alguns exercicios https://github.com/guipsamora/pandas_exercises
+    Ver Eda completa: https://www.youtube.com/watch?v=dye7rDktJ2E
+    Pra quem gosta de ebook https://jakevdp.github.io/PythonDataScienceHandbook/
+    
+    Nem leiam que eh foda: http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/
+    Organizar isso em algum github ^
+    
+
+thomasrs2206@gmail.com
+robson.zagre.jr@gmail.com
+vitor.origamer@gmail.com
+

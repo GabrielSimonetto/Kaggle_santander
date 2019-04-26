@@ -1,0 +1,42 @@
+Fala galera, beleza?
+
+Nosso primeiro bloco de tarefas vai consistir em selecionar, alterar e retirar algumas informações basicas dos dados
+
+As primeiras 5 celulas que voces precisam rodar são:
+	import pandas as pd
+	titanic = pd.read_csv("../dados/test.csv") # Ou algo do genero
+	titanic.head()
+	titanic.dtypes
+	titanic.shape
+
+Isso porque eu nao sabia como cobrar essa parte de forma sutil, mas vcs tem que saber que existe!
+Tambem é legal no começo voce rodarem type() em tudo que vcs encontrarem
+Se voce por exemplo rodar type(titanic.shape), voce descobre que shape retorna uma tupla,
+e agora voce pode acessar quantos dados voce tem via titanic.shape[0] !
+
+Enfim, acessando os dados do titanic descubram:
+
+Usando métodos basicos: 
+(todas as soluções tem apenas uma linha,
+se tiver dificil, é pq vcs tao fazendo chuncho!)
+- Media de idade da tripulação
+- Quantas pessoas sairam de cada porto
+- A pessoa mais velha
+- As 5 pessoas que pagaram mais caro
+- Quantos valores diferentes existem na coluna "Age"
+
+-- Dentro de pandas, só use pandas, o resto demora pra burro --
+				-- Eu --
+
+Remodelando a tabela:
+- Perceba que a tabela SibSp representa Siblings and Spouses,
+	e que Parch representa Parents and Children,
+	conserte a inconsistência mudando pra "ParCh"
+- Delete a coluna "Ticket" já que ela nao serve pra nada
+- Perceba que crianças com idade entre 0 e 1 tem idade fracionaria
+	Já que isso é besta, mude a idade de todas pra 0
+		(use loc, ele é mais indicado pra esse tipo de coisa)
+- Apresente numa tabela quantas pessoas são homens & mais velhas que 60 anos 
+	mas me mostre só o nome dela e a idade
+- Crie uma coluna booleana para o "Grupo de Prioridade"
+	Se uma pessoa for mulher ou criança (<14) ela pertence ao Grupo de Prioridade
