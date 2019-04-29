@@ -1,0 +1,13 @@
+1- Erro com o train e test
+
+2- Mostrar o modelo simplao de ML
+	Falar sobre a feature matrix e como ela funciona
+
+3- Mostrar como guardar coisas
+
+4- Mostrar como criar features
+	Talvez um pouquinho de grafico
+		Mostrar o ipynb de seaborn
+	
+
+
