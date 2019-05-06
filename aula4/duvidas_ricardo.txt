@@ -1,0 +1,6 @@
+Duvidas
+	1- pq n-1 nas features categoricas? nao tem problema a redundancia, e fica melhor de ler e entender
+
+ Mano, tem que consertar isso de outra forma, provavelmente catando um modelo que aceite
+
+E enfiar tudo numa funcao pra rodar encima do teste

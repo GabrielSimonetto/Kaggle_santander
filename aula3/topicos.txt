@@ -1,0 +1,14 @@
+Talvez falar de matriz de confusao
+
+explicar o que sao dummies (enquanto mostra o metodo do map
+    dummy == boneco
+falar de pd.get_dummies (e outras coisas assim)
+falar de como fazer dummies com valores continuos
+    talvez de pra usar a alura, mas:
+    https://towardsdatascience.com/understanding-feature-engineering-part-1-continuous-numeric-data-da4e47099a7b 
+
+--> Parei em Interactions <--
+
+
+    https://towardsdatascience.com/feature-selection-with-pandas-e3690ad8504b
+    https://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/
